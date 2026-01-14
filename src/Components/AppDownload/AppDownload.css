@@ -1,0 +1,47 @@
+.app-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin: 50px 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+.app-download h2 b{
+    color: tomato;
+    font-size: 50px !important;
+}
+.app-download .download{
+    display: flex;
+    gap: 20px;
+}
+.app-download .download img{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.app-download .download img:hover{
+    transform: scale(1.05);
+}
+
+
+@media(max-width:799px){
+    .app-download h2{
+        font-size: 26px;
+    }
+    .app-download h2 b{
+        font-size: 30px;
+    }
+}
+@media(max-width:449px){
+    .app-download h2{
+        font-size: 20px;
+    }
+    .app-download h2 b{
+        font-size: 23px;
+    }
+    .app-download img{
+        width: 130px;
+    }
+}
